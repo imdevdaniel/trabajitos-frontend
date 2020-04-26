@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:trabajitos_frontend/routes/routes.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,9 +10,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Trabajitos',
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(title: Text('Main Page'),),
-      ),
+      routes: getAppRoutes(),
+      initialRoute: 'home',
     );
   }
 
