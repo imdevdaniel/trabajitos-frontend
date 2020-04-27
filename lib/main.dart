@@ -22,6 +22,10 @@ class MyApp extends StatelessWidget {
         );
 
       },
+      theme: ThemeData(
+        backgroundColor: Color.fromRGBO(238, 242, 246, 1),
+        fontFamily: 'Roboto',
+      ),
     );
   }
 
