@@ -1,0 +1,54 @@
+{
+    "serviceOptions": [
+        {
+            "title": "Electricista",
+            "icon": "electricity",
+            "route": "service_category"
+        },
+        {
+            "title": "Fontanero",
+            "icon": "water",
+            "route": "service_category"
+        },
+        {
+            "title": "Traductor",
+            "icon": "translate",
+            "route": "service_category"
+        },
+        {
+            "title": "Soldador",
+            "icon": "soldering",
+            "route": "service_category"
+        },
+        {
+            "title": "Jardinero",
+            "icon": "nature_people",
+            "route": "service_category"
+        },
+        {
+            "title": "Albañil",
+            "icon": "bricks",
+            "route": "service_category"
+        },
+        {
+            "title": "Carpintero",
+            "icon": "hammer",
+            "route": "service_category"
+        },
+        {
+            "title": "Pintor",
+            "icon": "painter",
+            "route": "service_category"
+        },
+        {
+            "title": "Cerrajero",
+            "icon": "lock",
+            "route": "service_category"
+        },
+        {
+            "title": "Jornalero",
+            "icon": "handyman",
+            "route": "service_category"
+        }
+    ]
+}
