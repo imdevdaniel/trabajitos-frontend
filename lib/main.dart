@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       title: 'Trabajitos',
       debugShowCheckedModeBanner: false,
       routes: getAppRoutes(),
-      initialRoute: 'home',
+      initialRoute: 'main',
       onGenerateRoute: (RouteSettings settings) {
 
         print('Requested route "${ settings.name }" not found.');
