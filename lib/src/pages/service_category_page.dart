@@ -26,7 +26,7 @@ class _ServiceCategoryPageState extends State<ServiceCategoryPage> {
               context: context,
               text: 'Personal disponible',
               horizontalPadding: 16.0,
-              verticalPadding: 10.0
+              verticalPadding: 24.0
             ),
             ...this._drawGigWorkerCards(context),
           ],
