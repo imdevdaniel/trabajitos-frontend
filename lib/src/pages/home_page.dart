@@ -8,35 +8,33 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Theme.of(context).backgroundColor,
-      bottomNavigationBar: this._bottomNavigationBar(),
-      body: SafeArea(
-        child: SingleChildScrollView(
-          child: Container(
-            padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 48.0),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.start,
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: <Widget>[
-                Text(
-                  '¿Qué necesitas?',
-                  maxLines: 1,
-                  style: Theme.of(context).textTheme.headline,
-                ),
-                this._topSearchBar(),
-                Text(
-                  'Categorías',
-                  maxLines: 1,
-                  style: Theme.of(context).textTheme.subtitle,
-                ),
-                this._categoryOptions(context),
-              ],
-            ),
+
+    return SafeArea(
+      child: SingleChildScrollView(
+        child: Container(
+          padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 48.0),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              Text(
+                '¿Qué necesitas?',
+                maxLines: 1,
+                style: Theme.of(context).textTheme.headline,
+              ),
+              this._topSearchBar(),
+              Text(
+                'Categorías',
+                maxLines: 1,
+                style: Theme.of(context).textTheme.subtitle,
+              ),
+              this._categoryOptions(context),
+            ],
           ),
         ),
       ),
     );
+
   }
 
 
@@ -133,31 +131,6 @@ class HomePage extends StatelessWidget {
       child: Column(
         children: widgetList,
       ),
-    );
-
-  }
-
-  // Barra de navegación inferior
-  Widget _bottomNavigationBar() {
-
-    return BottomNavigationBar(
-      items: <BottomNavigationBarItem>[
-        BottomNavigationBarItem(
-          icon: Icon(Icons.home),
-          title: Text('Inicio'),
-          activeIcon: Icon(Icons.home)
-        ),
-        BottomNavigationBarItem(
-          icon: Icon(Icons.message),
-          title: Text('Mensajes'),
-          activeIcon: Icon(Icons.message)
-        ),
-        BottomNavigationBarItem(
-          icon: Icon(Icons.person),
-          title: Text('Cuenta'),
-          activeIcon: Icon(Icons.person),
-        ),
-      ],
     );
 
   }
