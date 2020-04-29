@@ -40,6 +40,22 @@ class _ChatPageState extends State<ChatPage> {
       body: ListView(
         children: _crearMensajes(),
       ),
+      bottomNavigationBar: BottomAppBar(
+          child: Container(
+            height: 60.0,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: <Widget>[
+              IconButton(icon: Icon(Icons.location_on), onPressed: () {
+                print('Enviar ubicacion....');
+              }),
+              TextField(),
+              IconButton(icon: Icon(Icons.send), onPressed: () {
+                print('Enviar mensaje....');
+              })
+            ]),
+          ),
+          color: Colors.blueGrey),
     );
   }
 
@@ -78,7 +94,13 @@ class _ChatPageState extends State<ChatPage> {
                             children: <Widget>[
                               Text(opt['viewed'],
                                   style: TextStyle(fontSize: 12)),
-                              (!opt['transmitter'] && (opt['viewed'])!='') ? Icon(Icons.check, color: Colors.cyan, size: 18,) : Icon(null) ,
+                              (!opt['transmitter'] && (opt['viewed']) != '')
+                                  ? Icon(
+                                      Icons.check,
+                                      color: Colors.cyan,
+                                      size: 18,
+                                    )
+                                  : Icon(null),
                             ]),
                       ],
                     ))),
