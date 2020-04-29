@@ -66,7 +66,7 @@ class _MessagesPageState extends State<MessagesPage> {
   }
 
   List<Widget> _crearItemsCorto() {
-    
+
     // rootBundle.loadString('assets/json/messages.json').then((data) {
     //   print(data);
     // });
@@ -79,7 +79,9 @@ class _MessagesPageState extends State<MessagesPage> {
             subtitle: Text(opt['msj']),
             leading: Image.network('https://i.picsum.photos/id/' + opt['img'] + '/100/100.jpg'),
             trailing: Icon(Icons.more_horiz),
-            onTap: () {},
+            onTap: () {
+              Navigator.pushNamed(context, 'chat');
+            },
           ),
           Divider()
         ],
