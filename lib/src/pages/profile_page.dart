@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:trabajitos_frontend/routes/routes.dart';
 
 class ProfilePage extends StatefulWidget {
 
@@ -19,7 +19,15 @@ class _ProfilePageState extends State<ProfilePage> {
           FlatButton(
             textColor: Colors.white,
             child: Text('Guardar'),
-            onPressed: () {},
+            onPressed: () {
+              
+            },
+          ),
+           FlatButton(
+            textColor: Colors.white,
+            child: Text('Inicio de sesion'),
+             onPressed: (){ Navigator.pushNamed(context, 'login');
+                },
           ),
         ],
       ),
