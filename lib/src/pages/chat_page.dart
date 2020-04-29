@@ -49,7 +49,9 @@ class _ChatPageState extends State<ChatPage> {
               IconButton(icon: Icon(Icons.location_on), onPressed: () {
                 print('Enviar ubicacion....');
               }),
-              TextField(),
+              Expanded(
+                child: TextField(enabled: true,)
+              ),
               IconButton(icon: Icon(Icons.send), onPressed: () {
                 print('Enviar mensaje....');
               })
