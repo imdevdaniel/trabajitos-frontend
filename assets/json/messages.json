@@ -1,0 +1,49 @@
+{
+    "messages": [
+        {
+            "name": "Jose Carlos Tobar",
+            "msj": "Ya estoy en camino, llegare en breve",
+            "img": "125"
+        },
+        {
+            "name": "Victor Alexander Perez",
+            "msj": "De momento ese seria el costo",
+            "img": "84"
+        },
+        {
+            "name": "Abisai Melendez",
+            "msj": "Me puede brindar los requisitos?",
+            "img": "32"
+        },
+        {
+            "name": "Daniel Pacheco",
+            "msj": "Solamente seria diseño estatico",
+            "img": "71"
+        },
+        {
+            "name": "Didier Alvarez",
+            "msj": "Mire, de momento no me hace tanta falta",
+            "img": "29"
+        },
+        {
+            "name": "Oscar Marquez",
+            "msj": "Estamos pendientes...",
+            "img": "100"
+        },
+        {
+            "name": "Marvin Quebedo",
+            "msj": "Desea solamente instalacion o con materiales de construccion.",
+            "img": "161"
+        },
+        {
+            "name": "Ana Vilma Herrera",
+            "msj": "Le puedo hacer una rebaja si son todos",
+            "img": "152"
+        },
+        {
+            "name": "Maria Transito",
+            "msj": "Lo siento, ropa de hombre no reparo",
+            "img": "158"
+        }
+    ]
+}
