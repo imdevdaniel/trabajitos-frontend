@@ -17,7 +17,7 @@ class _ChatPageState extends State<ChatPage> {
       appBar: AppBar(title: Text('José (Electricista)')),
       body: SafeArea(
         child: SingleChildScrollView(
-          child: Text('Hola, buenas tardes'),
+          child: Text('Hola, buenas dias'),
         ),
       ),
     );
