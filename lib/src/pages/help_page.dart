@@ -21,15 +21,23 @@ class HelpPage extends StatelessWidget {
         title: Text('Help Page'),
       ),
       
-      body: Center(
+      body: SingleChildScrollView(
        
         child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+
+           
             
             
             children: <Widget>[
 
-                
+                Text(
+
+                  ''  , style: TextStyle(
+                      fontWeight: FontWeight.w600,
+                      fontSize: 48
+                    ),
+                ),
+
             Text(
               'Soporte y ',  style: TextStyle(
                       fontWeight: FontWeight.w600,
