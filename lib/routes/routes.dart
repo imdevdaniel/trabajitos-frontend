@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:trabajitos_frontend/src/pages/main_page.dart';
 import 'package:trabajitos_frontend/src/pages/service_category_page.dart';
 import 'package:trabajitos_frontend/src/pages/worker_profile_page.dart';
+import 'package:trabajitos_frontend/src/pages/chat_page.dart';
 
 Map<String, WidgetBuilder> getAppRoutes() {
 
@@ -10,6 +11,7 @@ Map<String, WidgetBuilder> getAppRoutes() {
     'main'              : (BuildContext context) => MainPage(),
     'service_category'  : (BuildContext context) => ServiceCategoryPage(),
     'worker_profile'    : (BuildContext context) => WorkerProfilePage(),
+    'chat'              : (BuildContext context) => ChatPage(),
   };
 
 }
