@@ -75,8 +75,8 @@ class _MessagesPageState extends State<MessagesPage> {
       return Column(
         children: <Widget>[
           ListTile(
-            title: Text(opt['name']),
-            subtitle: Text(opt['msj']),
+            title: Text(opt['name'], overflow: TextOverflow.ellipsis),
+            subtitle: Text(opt['msj'], overflow: TextOverflow.ellipsis),
             leading: Image.network('https://i.picsum.photos/id/' + opt['img'] + '/100/100.jpg'),
             trailing: Icon(Icons.more_horiz),
             onTap: () {
