@@ -24,14 +24,19 @@ final Color co = new Color(0xFF448AFF);
       ),
 
 
-     body: Center( 
+     body: SingleChildScrollView( 
           
         child: Column(
          
           mainAxisAlignment: MainAxisAlignment.center,
 
           children: <Widget>[
-            
+             Text(
+              '' , style: _textoestilo6,
+            ),
+             Text(
+              '' , style: _textoestilo6,
+            ),
             Text(
               'TRABAJITOS' , style: _textoestilo6,
             ),
