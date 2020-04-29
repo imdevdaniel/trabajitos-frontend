@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:flutter/services.dart';
+import 'package:flutter/services.dart' show rootBundle;
 
 class _HomeOptionsProvider {
 
