@@ -24,11 +24,11 @@ final Color co = new Color(0xFF448AFF);
       ),
 
 
-     body: SingleChildScrollView( 
+     body: Center( 
           
         child: Column(
          
-         
+          mainAxisAlignment: MainAxisAlignment.center,
 
           children: <Widget>[
             
